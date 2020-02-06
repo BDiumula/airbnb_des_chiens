@@ -1,24 +1,36 @@
-# README
+# Le Airbnb des promenades de chiens
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Une plateforme où des personnes pourraient promener les chiens des autres, en échange de cash-money.
 
-Things you may want to cover:
+### Prerequisites
+Ici nous utiliserons pour l'application la version de rails _5.2.3_
 
-* Ruby version
+Ici nous allons avoir besoin de la gem 'faker' et gem 'table_print'
 
-* System dependencies
+```
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'table_print'
+```
 
-* Configuration
+### Installing
 
-* Database creation
+N'oubliez pas d'éxécutez la commande bundle install
 
-* Database initialization
+```
+bundle install
+```
 
-* How to run the test suite
+### Run the program
 
-* Services (job queues, cache servers, search engines, etc.)
+Lancez la commande rails console pour pouvoir jouer avec les BDD. 
 
-* Deployment instructions
+```
+rails console
 
-* ...
+```
+
+
+
+## Authors
+
+* **Bénédicte Diumula** - *Moussaillonne THP* 
